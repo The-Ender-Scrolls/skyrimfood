@@ -114,7 +114,7 @@ public abstract class OvenRecipeProvider {
             addOvenRecipe(
                     ItemRegistry.SWEET_ROLL.get(),
                     new OvenRecipe("food", new ItemStack(ItemRegistry.SWEET_ROLL.get(), 1), 1, 5,
-                            NonNullList.of(
+                            ingredientList(
                                     Ingredient.of(ItemRegistry.BUTTER.get()),
                                     Ingredient.of(Items.EGG),
                                     Ingredient.of(ItemRegistry.SALT_PILE.get()),
@@ -126,7 +126,7 @@ public abstract class OvenRecipeProvider {
             addOvenRecipe(
                     ItemRegistry.GARLIC_BREAD.get(),
                     new OvenRecipe("food", new ItemStack(ItemRegistry.GARLIC_BREAD.get(), 1), 1, 5,
-                            NonNullList.of(
+                            ingredientList(
                                     Ingredient.of(ItemRegistry.BUTTER.get()),
                                     Ingredient.of(ItemRegistry.GARLIC.get()),
                                     Ingredient.of(ItemRegistry.FLOUR.get())
@@ -136,7 +136,7 @@ public abstract class OvenRecipeProvider {
             addOvenRecipe(
                     ItemRegistry.APPLE_PIE.get(),
                     new OvenRecipe("food", new ItemStack(ItemRegistry.APPLE_PIE.get(), 1), 1, 5,
-                            NonNullList.of(
+                            ingredientList(
                                     Ingredient.of(ItemRegistry.FLOUR.get()),
                                     Ingredient.of(ItemRegistry.SALT_PILE.get()),
                                     Ingredient.of(ItemRegistry.BUTTER.get()),
@@ -148,7 +148,7 @@ public abstract class OvenRecipeProvider {
             addOvenRecipe(
                     ItemRegistry.POTATO_BREAD.get(),
                     new OvenRecipe("food", new ItemStack(ItemRegistry.POTATO_BREAD.get(), 1), 1, 5,
-                            NonNullList.of(
+                            ingredientList(
                                     Ingredient.of(ItemRegistry.FLOUR.get()),
                                     Ingredient.of(ItemRegistry.SALT_PILE.get()),
                                     Ingredient.of(Items.MILK_BUCKET),
@@ -160,7 +160,7 @@ public abstract class OvenRecipeProvider {
             addOvenRecipe(
                     ItemRegistry.HORSE_HAUNCH.get(),
                     new OvenRecipe("food", new ItemStack(ItemRegistry.HORSE_HAUNCH.get(), 1), 1, 5,
-                            NonNullList.of(
+                            ingredientList(
                                     Ingredient.of(ItemRegistry.HORSE_MEAT.get()),
                                     Ingredient.of(ItemRegistry.SALT_PILE.get())
                             ))
@@ -169,7 +169,7 @@ public abstract class OvenRecipeProvider {
             addOvenRecipe(
                     ItemRegistry.LEG_OF_GOAT_ROAST.get(),
                     new OvenRecipe("food", new ItemStack(ItemRegistry.LEG_OF_GOAT_ROAST.get(), 1), 1, 5,
-                            NonNullList.of(
+                            ingredientList(
                                     Ingredient.of(ItemRegistry.LEG_OF_GOAT.get()),
                                     Ingredient.of(ItemRegistry.BUTTER.get())
                             ))
@@ -177,7 +177,7 @@ public abstract class OvenRecipeProvider {
             addOvenRecipe(
                     ItemRegistry.APPLE_DUMPLING.get(),
                     new OvenRecipe("food", new ItemStack(ItemRegistry.APPLE_DUMPLING.get(), 1), 1, 5,
-                            NonNullList.of(
+                            ingredientList(
                                     Ingredient.of(ItemRegistry.FLOUR.get()),
                                     Ingredient.of(ItemRegistry.BUTTER.get()),
                                     Ingredient.of(Items.APPLE)
@@ -186,7 +186,7 @@ public abstract class OvenRecipeProvider {
             addOvenRecipe(
                     ItemRegistry.BRAIDED_BREAD.get(),
                     new OvenRecipe("food", new ItemStack(ItemRegistry.BRAIDED_BREAD.get(), 1), 1, 5,
-                            NonNullList.of(
+                            ingredientList(
                                     Ingredient.of(ItemRegistry.FLOUR.get()),
                                     Ingredient.of(ItemRegistry.SALT_PILE.get()),
                                     Ingredient.of(Items.MILK_BUCKET)
@@ -195,7 +195,7 @@ public abstract class OvenRecipeProvider {
             addOvenRecipe(
                     ItemRegistry.BOILED_CREME_TREAT.get(),
                     new OvenRecipe("food", new ItemStack(ItemRegistry.BOILED_CREME_TREAT.get(), 1), 1, 5,
-                            NonNullList.of(
+                            ingredientList(
                                     Ingredient.of(ItemRegistry.FLOUR.get()),
                                     Ingredient.of(ItemRegistry.BUTTER.get()),
                                     Ingredient.of(Items.EGG),
@@ -205,7 +205,7 @@ public abstract class OvenRecipeProvider {
             addOvenRecipe(
                     ItemRegistry.CHICKEN_DUMPLING.get(),
                     new OvenRecipe("food", new ItemStack(ItemRegistry.CHICKEN_DUMPLING.get(), 1), 1, 5,
-                            NonNullList.of(
+                            ingredientList(
                                     Ingredient.of(ItemRegistry.FLOUR.get()),
                                     Ingredient.of(ItemRegistry.SALT_PILE.get()),
                                     Ingredient.of(Items.CHICKEN)
@@ -214,7 +214,7 @@ public abstract class OvenRecipeProvider {
             addOvenRecipe(
                     ItemRegistry.HONEY_NUT_TREAT.get(),
                     new OvenRecipe("food", new ItemStack(ItemRegistry.HONEY_NUT_TREAT.get(), 1), 1, 5,
-                            NonNullList.of(
+                            ingredientList(
                                     Ingredient.of(ItemRegistry.FLOUR.get()),
                                     Ingredient.of(ItemRegistry.BUTTER.get()),
                                     Ingredient.of(Items.HONEY_BOTTLE), // or use a honey item if you have one
@@ -224,7 +224,7 @@ public abstract class OvenRecipeProvider {
             addOvenRecipe(
                     ItemRegistry.JAZBAY_CROSTATA.get(),
                     new OvenRecipe("food", new ItemStack(ItemRegistry.JAZBAY_CROSTATA.get(), 1), 1, 5,
-                            NonNullList.of(
+                            ingredientList(
                                     Ingredient.of(ItemRegistry.FLOUR.get()),
                                     Ingredient.of(ItemRegistry.BUTTER.get()),
                                     Ingredient.of(ItemRegistry.JAZBAY_GRAPES.get()),
@@ -234,7 +234,7 @@ public abstract class OvenRecipeProvider {
             addOvenRecipe(
                     ItemRegistry.JUNIPER_BERRY_CROSTATA.get(),
                     new OvenRecipe("food", new ItemStack(ItemRegistry.JUNIPER_BERRY_CROSTATA.get(), 1), 1, 5,
-                            NonNullList.of(
+                            ingredientList(
                                     Ingredient.of(ItemRegistry.FLOUR.get()),
                                     Ingredient.of(ItemRegistry.BUTTER.get()),
                                     Ingredient.of(ItemRegistry.JUNIPER_BERRIES.get()),
@@ -244,7 +244,7 @@ public abstract class OvenRecipeProvider {
             addOvenRecipe(
                     ItemRegistry.LAVENDER_DUMPLING.get(),
                     new OvenRecipe("food", new ItemStack(ItemRegistry.LAVENDER_DUMPLING.get(), 1), 1, 5,
-                            NonNullList.of(
+                            ingredientList(
                                     Ingredient.of(ItemRegistry.FLOUR.get()),
                                     Ingredient.of(ItemRegistry.BUTTER.get()),
                                     Ingredient.of(BlockRegistry.LAVENDER_ITEM.get()),
@@ -254,7 +254,7 @@ public abstract class OvenRecipeProvider {
             addOvenRecipe(
                     ItemRegistry.SNOWBERRY_CROSTATA.get(),
                     new OvenRecipe("food", new ItemStack(ItemRegistry.SNOWBERRY_CROSTATA.get(), 1), 1, 5,
-                            NonNullList.of(
+                            ingredientList(
                                     Ingredient.of(ItemRegistry.FLOUR.get()),
                                     Ingredient.of(ItemRegistry.BUTTER.get()),
                                     Ingredient.of(ItemRegistry.SNOWBERRIES.get()),
@@ -262,5 +262,13 @@ public abstract class OvenRecipeProvider {
                             ))
             );
         }
+    }
+
+    private static NonNullList<Ingredient> ingredientList(Ingredient... ingredients) {
+        NonNullList<Ingredient> list = NonNullList.create();
+        for (Ingredient ingredient : ingredients) {
+            list.add(ingredient);
+        }
+        return list;
     }
 }

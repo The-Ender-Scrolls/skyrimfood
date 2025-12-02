@@ -13,6 +13,8 @@ repositories {
     }
 }
 
+sourceSets.main.resources { srcDir file('../common/src/generated/resources').getAbsolutePath() }
+
 dependencies {
     minecraft "com.mojang:minecraft:${minecraft_version}"
     mappings loom.layered {

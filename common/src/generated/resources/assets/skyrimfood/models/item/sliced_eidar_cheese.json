@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "skyrimfood:item/sliced_eidar_cheese"
+  }
+}

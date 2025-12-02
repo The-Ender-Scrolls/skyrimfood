@@ -1,0 +1,73 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.25
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "skyrimfood:hawk_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.25
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "skyrimfood:pine_thrush_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.25
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "skyrimfood:rock_warbler_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:egg"
+        }
+      ],
+      "functions": [
+        {
+          "add": false,
+          "count": {
+            "type": "minecraft:uniform",
+            "max": 1.0,
+            "min": 0.25
+          },
+          "function": "minecraft:set_count"
+        }
+      ],
+      "name": "birdsNestPool",
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "skyrimfood:blocks/birds_nest"
+}

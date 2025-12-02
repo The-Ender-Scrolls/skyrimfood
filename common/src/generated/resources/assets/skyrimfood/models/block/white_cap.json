@@ -1,0 +1,8 @@
+{
+  "parent": "skyrimfood:block/triple_mushroom_generic",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "all": "skyrimfood:block/white_cap",
+    "particle": "skyrimfood:block/white_cap"
+  }
+}

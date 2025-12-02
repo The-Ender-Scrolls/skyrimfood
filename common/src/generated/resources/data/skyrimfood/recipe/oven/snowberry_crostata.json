@@ -1,0 +1,16 @@
+{
+  "type": "skyrimfood:oven",
+  "category": "food",
+  "ingredients": [
+    "skyrimfood:flour",
+    "skyrimfood:butter",
+    "skyrimfood:snowberries",
+    "skyrimfood:salt_pile"
+  ],
+  "level": 1,
+  "result": {
+    "count": 1,
+    "id": "skyrimfood:snowberry_crostata"
+  },
+  "xp": 5
+}

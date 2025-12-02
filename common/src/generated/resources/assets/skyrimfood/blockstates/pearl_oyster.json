@@ -1,0 +1,64 @@
+{
+  "variants": {
+    "empty=false,facing=east,open=false": {
+      "model": "skyrimfood:block/pearl_oyster",
+      "y": 90
+    },
+    "empty=false,facing=east,open=true": {
+      "model": "skyrimfood:block/pearl_oyster_open",
+      "y": 90
+    },
+    "empty=false,facing=north,open=false": {
+      "model": "skyrimfood:block/pearl_oyster"
+    },
+    "empty=false,facing=north,open=true": {
+      "model": "skyrimfood:block/pearl_oyster_open"
+    },
+    "empty=false,facing=south,open=false": {
+      "model": "skyrimfood:block/pearl_oyster",
+      "y": 180
+    },
+    "empty=false,facing=south,open=true": {
+      "model": "skyrimfood:block/pearl_oyster_open",
+      "y": 180
+    },
+    "empty=false,facing=west,open=false": {
+      "model": "skyrimfood:block/pearl_oyster",
+      "y": 270
+    },
+    "empty=false,facing=west,open=true": {
+      "model": "skyrimfood:block/pearl_oyster_open",
+      "y": 270
+    },
+    "empty=true,facing=east,open=false": {
+      "model": "skyrimfood:block/pearl_oyster_empty",
+      "y": 90
+    },
+    "empty=true,facing=east,open=true": {
+      "model": "skyrimfood:block/pearl_oyster_empty",
+      "y": 90
+    },
+    "empty=true,facing=north,open=false": {
+      "model": "skyrimfood:block/pearl_oyster_empty"
+    },
+    "empty=true,facing=north,open=true": {
+      "model": "skyrimfood:block/pearl_oyster_empty"
+    },
+    "empty=true,facing=south,open=false": {
+      "model": "skyrimfood:block/pearl_oyster_empty",
+      "y": 180
+    },
+    "empty=true,facing=south,open=true": {
+      "model": "skyrimfood:block/pearl_oyster_empty",
+      "y": 180
+    },
+    "empty=true,facing=west,open=false": {
+      "model": "skyrimfood:block/pearl_oyster_empty",
+      "y": 270
+    },
+    "empty=true,facing=west,open=true": {
+      "model": "skyrimfood:block/pearl_oyster_empty",
+      "y": 270
+    }
+  }
+}

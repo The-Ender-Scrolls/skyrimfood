@@ -1,0 +1,16 @@
+{
+  "type": "skyrimfood:oven",
+  "category": "food",
+  "ingredients": [
+    "skyrimfood:flour",
+    "skyrimfood:butter",
+    "minecraft:egg",
+    "minecraft:milk_bucket"
+  ],
+  "level": 1,
+  "result": {
+    "count": 1,
+    "id": "skyrimfood:boiled_creme_treat"
+  },
+  "xp": 5
+}

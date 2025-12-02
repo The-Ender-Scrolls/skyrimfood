@@ -1,0 +1,6 @@
+// 1.21.10	2025-12-02T18:19:10.7479497	Tags for minecraft:item mod id skyrimfood
+18d9aaa6fc60d612f6012f144f215444d5137898 data/minecraft/tags/item/chicken_food.json
+3e0c7b7524ca9eb3ea310bec6794c46b2219c56f data/minecraft/tags/item/meat.json
+18d9aaa6fc60d612f6012f144f215444d5137898 data/minecraft/tags/item/parrot_food.json
+605889e42ea5c8a930b898906dd997f87ac79563 data/minecraft/tags/item/villager_plantable_seeds.json
+414781cae90d6411f281c83a0ce6357c695c51c3 data/skyrimfood/tags/item/bread.json

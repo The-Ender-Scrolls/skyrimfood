@@ -1,0 +1,17 @@
+{
+  "type": "skyrimfood:oven",
+  "category": "food",
+  "ingredients": [
+    "skyrimfood:flour",
+    "skyrimfood:salt_pile",
+    "skyrimfood:butter",
+    "minecraft:egg",
+    "minecraft:apple"
+  ],
+  "level": 1,
+  "result": {
+    "count": 1,
+    "id": "skyrimfood:apple_pie"
+  },
+  "xp": 5
+}

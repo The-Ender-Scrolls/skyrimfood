@@ -1,0 +1,15 @@
+{
+  "type": "skyrimfood:oven",
+  "category": "food",
+  "ingredients": [
+    "skyrimfood:flour",
+    "skyrimfood:salt_pile",
+    "minecraft:chicken"
+  ],
+  "level": 1,
+  "result": {
+    "count": 1,
+    "id": "skyrimfood:chicken_dumpling"
+  },
+  "xp": 5
+}

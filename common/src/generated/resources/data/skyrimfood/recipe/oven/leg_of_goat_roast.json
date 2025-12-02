@@ -1,0 +1,14 @@
+{
+  "type": "skyrimfood:oven",
+  "category": "food",
+  "ingredients": [
+    "skyrimfood:leg_of_goat",
+    "skyrimfood:butter"
+  ],
+  "level": 1,
+  "result": {
+    "count": 1,
+    "id": "skyrimfood:leg_of_goat_roast"
+  },
+  "xp": 5
+}

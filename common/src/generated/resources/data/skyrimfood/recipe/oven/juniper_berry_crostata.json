@@ -1,0 +1,16 @@
+{
+  "type": "skyrimfood:oven",
+  "category": "food",
+  "ingredients": [
+    "skyrimfood:flour",
+    "skyrimfood:butter",
+    "skyrimfood:juniper_berries",
+    "skyrimfood:salt_pile"
+  ],
+  "level": 1,
+  "result": {
+    "count": 1,
+    "id": "skyrimfood:juniper_berry_crostata"
+  },
+  "xp": 5
+}

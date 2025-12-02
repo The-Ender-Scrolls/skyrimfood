@@ -1,0 +1,8 @@
+// 1.21.10	2025-12-02T18:19:10.7689486	Tags for minecraft:block mod id skyrimfood
+b847ebc591dcdee0048a13e3e60093a47d44b2fa data/minecraft/tags/block/bee_growables.json
+b847ebc591dcdee0048a13e3e60093a47d44b2fa data/minecraft/tags/block/crops.json
+b9007da883605711ef2348462e1607f63c82edd5 data/minecraft/tags/block/mineable/pickaxe.json
+01fc7aba1c6af048934a96a4108615c098f624d1 data/minecraft/tags/block/mushroom_grow_block.json
+66adba69c0db8bf36ff71502f694fab22d5a1564 data/minecraft/tags/block/needs_iron_tool.json
+037ba30d64deb220269c2a8bf001cd5b2de81378 data/minecraft/tags/block/replaceable_by_trees.json
+fb69ff839a085b0649711309d87f8dbacc2d69ff data/minecraft/tags/block/small_flowers.json

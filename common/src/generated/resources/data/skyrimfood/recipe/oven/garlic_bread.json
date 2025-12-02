@@ -1,0 +1,15 @@
+{
+  "type": "skyrimfood:oven",
+  "category": "food",
+  "ingredients": [
+    "skyrimfood:butter",
+    "skyrimfood:garlic",
+    "skyrimfood:flour"
+  ],
+  "level": 1,
+  "result": {
+    "count": 1,
+    "id": "skyrimfood:garlic_bread"
+  },
+  "xp": 5
+}

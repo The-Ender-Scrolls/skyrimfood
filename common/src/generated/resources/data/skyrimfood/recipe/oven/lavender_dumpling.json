@@ -1,0 +1,16 @@
+{
+  "type": "skyrimfood:oven",
+  "category": "food",
+  "ingredients": [
+    "skyrimfood:flour",
+    "skyrimfood:butter",
+    "skyrimfood:lavender",
+    "skyrimfood:salt_pile"
+  ],
+  "level": 1,
+  "result": {
+    "count": 1,
+    "id": "skyrimfood:lavender_dumpling"
+  },
+  "xp": 5
+}
